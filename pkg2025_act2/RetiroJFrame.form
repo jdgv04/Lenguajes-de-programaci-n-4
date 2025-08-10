@@ -71,9 +71,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="RetirarTexto">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="$"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Bot&#xf3;nRetirar">
       <Properties>
@@ -88,6 +85,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Retirar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bot&#xf3;nRetirarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
